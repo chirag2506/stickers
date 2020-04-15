@@ -20,11 +20,54 @@
           "emojis": ["☕","🙂"]
         },
         {
+          "image_file": "Swag.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "Nostalgia.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "Laugh.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "Thinking.webp",
+          "emojis": ["😄","😀"]
+        },{
+          "image_file": "SmileFemale.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "Couple.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "WierdSmile.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "Swag2.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
           "image_file": "Evil Smile.webp",
           "emojis": ["😄","😀"]
         },
         {
           "image_file": "Hello.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "Smile2.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "Smile.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "CrySmile.webp",
           "emojis": ["😆","😂"]
         }
       ]

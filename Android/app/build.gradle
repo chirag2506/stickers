@@ -78,14 +78,14 @@ private void checkApplicationIdInDebug() {
 }
 
 
-task checkRelease {
-    doLast {
-        println("checkRelease")
-        if (android.defaultConfig.applicationId.startsWith("com.chirag")) {
-            throw new GradleException("applicationId in defaultConfig cannot start with com.chirag, please change your applicationId in app/build.gradle")
-        }
-    }
-}
+//task checkRelease {
+//    doLast {
+//        println("checkRelease")
+//        if (android.defaultConfig.applicationId.startsWith("com.chirag")) {
+//            throw new GradleException("applicationId in defaultConfig cannot start with com.chirag, please change your applicationId in app/build.gradle")
+//        }
+//    }
+//}
 
 tasks.whenTaskAdded { task ->
     println(task.name)
@@ -93,7 +93,7 @@ tasks.whenTaskAdded { task ->
         task.dependsOn checkDebug
     }
     if (task.name.contains("assembleRelease")) {
-        task.dependsOn checkRelease
+//        task.dependsOn checkRelease
     }
 }
 
